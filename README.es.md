@@ -37,20 +37,20 @@ El boilerplate tiene un archivo README con instrucciones de como construir una A
 
 Crea una API conectada a una base de datos e implemente los siguientes endpoints (muy similares a SWAPI.dev or SWAPI.tech):
 
-- [GET] /people Listar todos los registros de people en la base de datos.
-- [GET] /people/{people_id} Muestra la información de un solo personaje según su id. Muestra la información de un solo personaje según su id.
-- [GET] /planets Listar todos los registros de planets en la base de datos.
-- [GET] /planets/{planet_id} Muestra la información de un solo planeta según su id.
+- `[GET] /people` Lista todos los registros de personajes en la base de datos.
+- `[GET] /people/{people_id}` Muestra la información de un solo personaje por su id.
+- `[GET] /planets` Lista todos los registros de planetas en la base de datos.
+- `[GET] /planets/{planet_id}` Muestra la información de un solo planeta por su id.
 
 Adicionalmente, necesitamos crear los siguientes endpoints para que podamos tener usuarios y favoritos en nuestro blog:
 
-- [GET] /users Listar todos los usuarios del blog.
-- [GET] /users/favorites Listar todos los favoritos que pertenecen al usuario actual.
-- [POST] /favorite/planet/{planet_id} Añade un nuevo planet favorito al usuario actual con el id = planet_id.
-- [POST] /favorite/people/{people_id} Añade un nuevo people favorito al usuario actual con el id = people_id.
-- [DELETE] /favorite/planet/{planet_id} Elimina un planet favorito con el id = planet_id.
-- [DELETE] /favorite/people/{people_id} Elimina un people favorito con el id = people_id.
-- Tu API actual no tiene un sistema de autenticación (todavía), es por eso que la única forma de crear usuarios es directamente en la base de datos.
+- `[GET] /users` Lista todos los usuarios del blog.
+- `[GET] /users/favorites` Lista todos los favoritos que pertenecen al usuario actual.
+- `[POST] /favorite/planet/{planet_id}` Agrega un nuevo planeta favorito al usuario actual con id = planet_id.
+- `[POST] /favorite/people/{people_id}` Agrega un nuevo personaje favorito al usuario actual con id = people_id.
+- `[DELETE] /favorite/planet/{planet_id}` Elimina un planeta favorito con id = planet_id.
+- `[DELETE] /favorite/people/{people_id}` Elimina un personaje favorito con id = people_id.
+- Tu API actual no tiene un sistema de autenticación (todavía), por lo que la única forma de crear usuarios es directamente en la base de datos.
 
 > Nota: Aquí hay un ejemplo en Postman: https://documenter.getpostman.com/view/2432393/TzRSgnTS#a4174b48-3fc8-46e3-bf82-19a08107666f
 

@@ -37,19 +37,19 @@ The boilerplate has a README file with instructions on how to build an API. You 
 
 Create an API connected to a database and implement the following endpoints (very similar to SWAPI.dev or SWAPI.tech):
 
-- [GET] /people List all people records in the database.
-- [GET] /people/{people_id} Show the information of a single character by its id.
-- [GET] /planets List all planet records in the database.
-- [GET] /planets/{planet_id} Show the information of a single planet by its id.
+- `[GET] /people` List all people records in the database.
+- `[GET] /people/{people_id}` Show the information of a single character by its id.
+- `[GET] /planets` List all planet records in the database.
+- `[GET] /planets/{planet_id}` Show the information of a single planet by its id.
 
 Additionally, we need to create the following endpoints so that we can have users and favorites in our blog:
 
-- [GET] /users List all blog users.
-- [GET] /users/favorites List all favorites that belong to the current user.
-- [POST] /favorite/planet/{planet_id} Add a new favorite planet to the current user with id = planet_id.
-- [POST] /favorite/people/{people_id} Add a new favorite character to the current user with id = people_id.
-- [DELETE] /favorite/planet/{planet_id} Remove a favorite planet with id = planet_id.
-- [DELETE] /favorite/people/{people_id} Remove a favorite character with id = people_id.
+- `[GET] /users` List all blog users.
+- `[GET] /users/favorites` List all favorites that belong to the current user.
+- `[POST] /favorite/planet/{planet_id}` Add a new favorite planet to the current user with id = planet_id.
+- `[POST] /favorite/people/{people_id}` Add a new favorite character to the current user with id = people_id.
+- `[DELETE] /favorite/planet/{planet_id}` Remove a favorite planet with id = planet_id.
+- `[DELETE] /favorite/people/{people_id}` Remove a favorite character with id = people_id.
 - Your current API does not have an authentication system (yet), so the only way to create users is directly in the database.
 
 > Note: Here is an example in Postman: https://documenter.getpostman.com/view/2432393/TzRSgnTS#a4174b48-3fc8-46e3-bf82-19a08107666f
