@@ -20,9 +20,10 @@ We recommend opening the `fastAPI template` using a development environment like
 
 This is the repository you need to open or clone:
 
-text
+```text
 🐍 For Python/FastAPI:
 https://github.com/4GeeksAcademy/fastapi-rest-hello
+```
 
 
 > ⚠ If you work locally you must have a database and Python 3.7+ but if you use Codespaces or Gitpod everything is already installed.
