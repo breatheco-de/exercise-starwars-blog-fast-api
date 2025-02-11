@@ -22,7 +22,7 @@ Este es el repositorio que necesitas abrir o clonar:
 
 ```text
 🐍 Para Python/FastAPI:
-https://github.com/4GeeksAcademy/fastapi-rest-hello
+https://github.com/4GeeksAcademy/fastapi-hello
 ```
 
 > ⚠ Si trabajas localmente debes tener una base de datos y Python 3.7+ pero si usas Codespaces o Gitpod ya viene todo instalado.
