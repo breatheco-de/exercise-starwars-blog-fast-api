@@ -22,7 +22,7 @@ This is the repository you need to open or clone:
 
 ```text
 🐍 For Python/FastAPI:
-https://github.com/4GeeksAcademy/fastapi-rest-hello
+https://github.com/4GeeksAcademy/fastapi-hello
 ```
 
 
